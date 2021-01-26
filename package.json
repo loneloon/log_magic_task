@@ -13,5 +13,8 @@
     "testCases": "jest --testPathPattern=src/__tests__/testCases",
     "unitTests": "jest --testPathPattern=src/__tests__/unitTests --coverage",
     "helloWorld": "jest helloWorld.test.ts"
+  },
+  "dependencies": {
+    "ts-node": "^9.1.1"
   }
 }
