@@ -14,7 +14,7 @@ export class CratePrototype {
     add_item(item: number[]): boolean {
 
         // packs a given item into the first suitable free space
-        // of the container and allocates leftover free space snippets
+        // of the container and allocates leftover free space snippets which are reused
 
         let allocated = false;
         let oriented_obj = item.sort();

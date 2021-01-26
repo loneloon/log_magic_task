@@ -1,0 +1,16 @@
+## Solution Overview
+
+Using the provided source i have attempted to implement a sufficient solution.
+
+Core features are located in src/crateAllocator.ts
+It implements the following classes:
+    - CratePrototype class:
+        It's main purpose is to simulate a given container and fit all the given items,
+        allocating new clusters of empty leftover space after each fit.
+
+    - CratePacker:
+        Using provided container specs, product lists and CratePrototype
+        fits items and creates container batches which are returned to the orderHandler.
+
+I have also updated packOrder method of OrderHandler class as was intended,
+using imported classes from crateAllocator module.
